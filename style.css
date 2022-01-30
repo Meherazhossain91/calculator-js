@@ -1,0 +1,46 @@
+
+
+.calculator{
+    width: 350px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 10px;
+    
+}
+.monitor{
+    min-height: 100px;
+    background-color: #000;
+    border-radius: 10px 10px 0 0;
+    padding:  10px;
+    color: white;
+    text-align: right;
+}
+
+.top-monitor{
+    font-size: 25px;
+}
+.main-monitor{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.buttons{
+    overflow: hidden;
+
+}
+
+.buttons button{
+    width: 25%;
+    border: none;
+    float: left;
+    padding: 22px;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.buttons button:hover{
+
+    background-color: #ccc;
+}
